@@ -1346,7 +1346,7 @@ body {
   background-color: rgba(241,241,241,0.2);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #a8a8a8;
+  background-color: #85a0a5;
   background-image: -webkit--webkit-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
   background-image: -webkit--moz-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
   background-image: -webkit--o-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
@@ -3300,6 +3300,7 @@ blockquote footer cite:before {
   margin: 0;
   color: var(--white);
   font-size: 1.85em;
+  text-shadow: 0.1rem 0.1rem 0.5rem #5f9ea0;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-title {
@@ -3309,6 +3310,7 @@ blockquote footer cite:before {
 #page-header #site-subtitle {
   color: var(--light-grey);
   font-size: 1.15em;
+  text-shadow: 0.1rem 0.1rem 0.2rem #5f9ea0;
 }
 @media screen and (min-width: 768px) {
   #page-header #site-subtitle {
